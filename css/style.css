@@ -67,19 +67,18 @@ body{
 }
 
 .h5-p{
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 20px;
     flex-grow: 1;
 }
 
 .h5-p h5{
     margin-bottom: 0px;
-    margin-top: 10px;
+    margin-top: 15px;
     font-weight: 900;
     color: hsl(223, 47%, 23%);
 }
 .h5-p p{
-    font-size: 16px;
     margin-top: 6px;
     font-weight: 500;
     color: hsl(224, 23%, 55%);
