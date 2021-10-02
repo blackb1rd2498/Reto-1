@@ -26,21 +26,28 @@ body{
 }
 
 .contenedor-texto{
+    border-radius:16px;   
     padding: 40px 55px 55px 55px;
+    box-shadow: -1px 12px 45px -17px rgba(0,0,0,0.3);
+    -webkit-box-shadow: -1px 12px 45px -17px rgba(0,0,0,0.3);
+    -moz-box-shadow: -1px 12px 45px -17px rgba(0,0,0,0.3);
 }
 
 .contenedor-parrafo{
     text-align: center;
-    font-size: 18px;
 }
 .contenedor-parrafo h4{
     margin-top: 0px;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     font-size: 26px;
-    font-family:url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;700;900&display=swap');
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
 }
 .contenedor-parrafo p{
-    margin-bottom: 25px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
 }
 
 .contenedor-plan{
@@ -53,22 +60,35 @@ body{
     flex-wrap: wrap;
 }
 
+.contenedor-plan a{
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+    font-size: 14px;
+}
+
 .h5-p{
-    padding-left: 10px;
+    font-size: 18px;
+    padding-left: 20px;
     flex-grow: 1;
 }
 
 .h5-p h5{
     margin-bottom: 0px;
     margin-top: 10px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
 }
 .h5-p p{
-    margin-top: 10px;
+    font-size: 16px;
+    margin-top: 6px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
 }
 
 
 #boton-pagar{
     color: #ffffff;
+    font-weight: 900;
     background-color: hsl(245, 75%, 52%);
     border: none;
     padding: 15px;
@@ -79,7 +99,6 @@ body{
     -webkit-box-shadow: -4px 9px 24px -4px rgba(56,41,224,0.75);
     -moz-box-shadow: -4px 9px 24px -4px rgba(56,41,224,0.75);
     margin-top: 25px;
-    font-weight: bold;
 }
 
 #boton-cancelar{
@@ -88,5 +107,6 @@ body{
     margin-top: 30px;
     width: 100%;
     cursor: pointer;
-    font-weight: bold;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
 }
